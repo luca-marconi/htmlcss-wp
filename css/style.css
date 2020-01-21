@@ -32,10 +32,12 @@ body {
 
 .aside {
     width: 25%;
-    height: 800px;
-    background-color: lightpink;
+    background-color: white;
     float: left;
     margin-top: 10px;
+    line-height: 45px;
+    border-radius: 10px;
+    padding-left: 25px;
 }
 
 .bside {
@@ -46,9 +48,9 @@ body {
 }
 
 .container_main {
-    height: 800px;
-    background-color:   violet;
+    background-color: white;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .container_footer {
@@ -117,5 +119,17 @@ li {
     background-color: white;
     margin-bottom: 20px;
     text-align: left;
-    overflow: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.aside h4 {
+    color: green;
+    text-align: center;
+}
+
+i {
+    color: orange;
+    width: 25px;
+    height: 25px;
 }
