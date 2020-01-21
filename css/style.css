@@ -31,6 +31,15 @@ body {
     border: 5px solid white;
 }
 
+.natural i {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: -43%;
+    transform: translate(-50%, -50%);
+}
+
 .aside {
     width: 25%;
     background-color: white;
@@ -132,8 +141,8 @@ li {
 
 i {
     color: orange;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
 }
 
 p {
