@@ -157,7 +157,7 @@ h4, h3 {
 }
 
 .social i {
-    color: green;
+    color: lightgreen;
     font-size: 50px;
     text-align: center;
     padding: 0 100px;
@@ -178,4 +178,8 @@ li:hover {
     background-color: lightgreen;
     color: black;
     cursor: pointer;
+}
+
+.social i:hover {
+    color: green;
 }
